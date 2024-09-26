@@ -1,0 +1,70 @@
+
+
+.images{
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  
+}
+
+.images-row{
+  margin-bottom: 8px;
+  position: relative;
+}
+.video-time{
+  font-family: roboto,Arial;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 8px;
+  right: 5px;
+
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+.video-title{
+  margin-top: 0;
+  width: 250px;
+  font-weight: 700;
+  font-size: 15px;
+  font-style: roboto,Arial;
+  
+}
+
+.profile-picture{
+  width:40px;
+  border-radius: 40px;
+}
+
+.second-divgrid{
+  display: grid;
+  grid-template-columns:50px 1fr;
+}
+
+.video-author{
+  font-size: 15px;
+color:rgb(96,96,96);
+margin-bottom:6px;
+}
+.video-stats{
+  font-size: 15px;
+color:rgb(96,96,96);
+margin-top:1px;
+}
+.video-grid{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr  ;
+  column-gap:15px;
+  row-gap: 10px;
+  margin-top: 25px;
+  
+}
+
+
+  
+
